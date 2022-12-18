@@ -14,7 +14,7 @@ ym = ClientAsync(YANDEX_MUSIC_TOKEN)
 async def main():
     await ym.init()
     await vk.api.messages.send(
-        random_id=random.randint(10312, 999999),
+        random_id=random.randint(1000, 999999),
         message=f"Юзербот активен. Для помощи напишите {PREFIX}help",
     )
 
